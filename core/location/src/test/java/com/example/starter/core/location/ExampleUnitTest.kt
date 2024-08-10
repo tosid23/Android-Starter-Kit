@@ -1,4 +1,4 @@
-package com.sid.location
+package com.example.starter.core.location
 
 import org.junit.Test
 

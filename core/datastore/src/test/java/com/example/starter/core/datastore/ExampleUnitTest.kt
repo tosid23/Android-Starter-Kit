@@ -1,4 +1,4 @@
-package com.sid.datastore
+package com.example.starter.core.datastore
 
 import org.junit.Test
 

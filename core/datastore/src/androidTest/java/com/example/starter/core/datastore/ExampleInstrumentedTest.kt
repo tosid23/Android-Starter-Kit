@@ -1,4 +1,4 @@
-package com.sid.location
+package com.example.starter.core.datastore
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.sid.location.test", appContext.packageName)
+        assertEquals("com.example.starter.core.datastore.test", appContext.packageName)
     }
 }
