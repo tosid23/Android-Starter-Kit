@@ -9,5 +9,5 @@ android {
 }
 
 dependencies {
-
+    testImplementation(libs.testng)
 }

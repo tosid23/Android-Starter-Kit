@@ -22,6 +22,8 @@ dependencies {
     compileOnly(libs.android.tools.common)
     compileOnly(libs.kotlin.gradlePlugin)
     compileOnly(libs.ksp.gradlePlugin)
+    compileOnly(libs.firebase.crashlytics.gradlePlugin)
+    compileOnly(libs.firebase.performance.gradlePlugin)
 }
 
 tasks {
@@ -56,6 +58,14 @@ gradlePlugin {
         register("androidHilt") {
             id = "starter.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
+        }
+        register("androidTest") {
+            id = "starter.android.test"
+            implementationClass = "AndroidTestConventionPlugin"
+        }
+        register("androidRoom") {
+            id = "starter.android.room"
+            implementationClass = "AndroidRoomConventionPlugin"
         }
     }
 }

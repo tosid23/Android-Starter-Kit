@@ -8,5 +8,6 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.junit.ktx)
+    testImplementation(libs.testng)
 }

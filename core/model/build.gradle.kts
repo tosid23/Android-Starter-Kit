@@ -7,6 +7,6 @@ android {
 }
 
 dependencies {
-    // Add relevant dependencies here
-
+    implementation(libs.junit.ktx)
+    testImplementation(libs.testng)
 }
