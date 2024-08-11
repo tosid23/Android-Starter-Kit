@@ -24,6 +24,7 @@ dependencies {
     compileOnly(libs.ksp.gradlePlugin)
     compileOnly(libs.firebase.crashlytics.gradlePlugin)
     compileOnly(libs.firebase.performance.gradlePlugin)
+    implementation(libs.room.gradlePlugin)
 }
 
 tasks {
